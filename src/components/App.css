@@ -1,0 +1,141 @@
+/* Styles go here */
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #ebf5fc;
+    
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    padding: 40px 0;
+
+
+}
+.content .card {
+    position: relative;
+  
+    width: 520px;
+    height: 540px;
+    box-shadow: inset 5px 5px 5px rgba(0,0,0,0.05),
+                inset -5px -5px 5px rgba(255,255,255,0.5),
+                5px 5px 5px rgba(0,0,0,0.05),
+                -5px -5px 5px rgba(255,255,255,0.5);
+    border-radius: 19px;
+    margin: 30px;
+}
+ .table .card {
+    position: absolute;
+    top: 20px;
+    left:40px;
+    right: 20px;
+    bottom:320px;
+    background: #dbe3e8;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+
+
+}
+.content .card:hover {
+    
+    box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+    background: linear-gradient(45deg,#b95ce4,#4f29cd);
+}
+.content .card  {
+    padding: 20px;
+    text-align: center;
+    font-size: 3em;
+    color: #777;
+   
+    transition :0.5s;
+}
+
+.content .card .td {
+    color: #777; 
+}
+.content .card .form {
+    color: #777; 
+    border-radius: 25px;
+    font-size: 3em;
+}
+input{
+  max-width: 380px;
+  
+  
+  position: relative;
+    display: block;
+    padding: 0 10px;
+    height: 60px;
+    line-height: 60px;
+    text-align: start;
+    white-space: nowrap;
+   
+
+}
+.content .card button {
+    font-size: 0.8em;
+    color: rgb(247, 234, 234);
+    z-index: 1;
+    transition: 0.5s;
+    border-radius: 0.2;
+    
+}
+.container .card .box .content p{
+    font-size: 1em;
+    font-weight: 300;
+    color: #777;
+    z-index: 1;
+    transition: 0.5s;
+}
+.container .card:hover .box .content h3,
+.container .card:hover .box .content p {
+    color: #fff;
+}
+.btn{
+    position: relative;
+    display: inline-block;
+    padding: 8px 20px;
+    background: #03a9f4;
+    margin-top: 15px ;
+    color: #ebf5fc;
+    border-radius: 20px;
+    border: none;
+
+    text-decoration: none;
+    font-weight: 400;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.02);
+}
+.btn:hover  {
+    background: #ff568f;
+}
+button {
+    position: relative;
+    display: inline-block;
+    padding: 8px 20px;
+    background: #03a9f4;
+    margin-top: 15px ;
+    color: #ebf5fc;
+    border-radius: 20px;
+    border: none;
+
+    text-decoration: none;
+    font-weight: 400;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.02);
+
+}
